@@ -26,6 +26,7 @@ const radioChange = e => {
 const checkboxChange = e => {
   console.log(e.target.checked);
 };
+
 const App = () => (
   <div>
     {options.map(option => (

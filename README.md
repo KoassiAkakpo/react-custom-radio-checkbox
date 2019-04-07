@@ -14,7 +14,7 @@ $ npm install react-custom-radio-checkbox --save
 
 ## Quick Start
 
-```jsx
+```javascript
 import React from "react";
 import ReactDOM from "react-dom";
 import { CustomRadio, CustomCheckbox } from "react-custom-radio-checkbox";
