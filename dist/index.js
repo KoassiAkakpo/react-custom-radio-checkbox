@@ -3,10 +3,19 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.CustomRadio = exports.CustomCheckbox = exports.MyComponent = undefined;
 
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _CustomRadio = require("./components/CustomRadio");
+
+var _CustomRadio2 = _interopRequireDefault(_CustomRadio);
+
+var _CustomCheckbox = require("./components/CustomCheckbox");
+
+var _CustomCheckbox2 = _interopRequireDefault(_CustomCheckbox);
 
 require("./styles.css");
 
@@ -19,4 +28,6 @@ var MyComponent = function MyComponent() {
     "Hello from My Component"
   );
 };
-exports.default = MyComponent;
+exports.MyComponent = MyComponent;
+exports.CustomCheckbox = _CustomCheckbox2.default;
+exports.CustomRadio = _CustomRadio2.default;
