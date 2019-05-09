@@ -1,23 +1,23 @@
-import React from "react";
-import { render } from "react-dom";
-import { CustomCheckbox, CustomRadio } from "../../src";
+import React from 'react';
+import { render } from 'react-dom';
+import { CustomCheckbox, CustomRadio } from '../../src';
 
 const options = [
   {
-    label: "France",
-    value: "FR"
+    label: 'France',
+    value: 'FR'
   },
   {
-    label: "China",
-    value: "CN"
+    label: 'China',
+    value: 'CN'
   },
   {
-    label: "New Zealand",
-    value: "NZ"
+    label: 'New Zealand',
+    value: 'NZ'
   },
   {
-    label: "Ukraine",
-    value: "UA"
+    label: 'Ukraine',
+    value: 'UA'
   }
 ];
 const radioChange = e => {
@@ -33,16 +33,17 @@ const App = () => (
       <CustomRadio
         key={option.value}
         label={option.label}
-        name="countries"
+        name='countries'
         value={option.value}
-        style={{ display: "block" }}
+        style={{ display: 'block' }}
         onChange={radioChange}
       />
     ))}
+    <br />
     <div>
-      <CustomCheckbox label="Remember Me" onChange={checkboxChange} />
+      <CustomCheckbox label='Remember Me' onChange={checkboxChange} />
     </div>
   </div>
 );
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));

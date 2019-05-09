@@ -6,15 +6,14 @@ Simple custom radio and checkbox input.
 
 Install `react-custom-radio-checkbox` with [npm](https://www.npmjs.com/):
 
-```bash
-
+```sh
 $ npm install react-custom-radio-checkbox --save
-
 ```
+[![NPM Stats](https://nodei.co/npm/react-custom-radio-checkbox.png?downloads=true)](https://www.npmjs.com/package/react-custom-radio-checkbox)
 
 ## Quick Start
 
-```javascript
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 import { CustomRadio, CustomCheckbox } from "react-custom-radio-checkbox";
